@@ -1,9 +1,15 @@
+/* eslint-disable no-unused-vars */
 import { useLoaderData } from "react-router-dom";
 import "./App.css";
 import CoffeeCard from "./Component/CoffeeCard";
 
 function App() {
   const coffees = useLoaderData()
+
+
+  const handleDelete = _id => {
+    
+  }
 
 
   return (
